@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     array << data
   end
  
-def array_sort(array)
+
   i = 0 
   y = i + 1 
   n = array.length 
