@@ -28,8 +28,9 @@ end
     if data == array[new_count]
       return key 
     end
-    new_count += 1 
+     
   end 
+  return nil 
 end 
 
 
