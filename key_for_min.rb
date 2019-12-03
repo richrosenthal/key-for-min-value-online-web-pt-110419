@@ -21,6 +21,7 @@ def array_sort(array)
         y += 1
       
    end
+   array
   end 
  
   
