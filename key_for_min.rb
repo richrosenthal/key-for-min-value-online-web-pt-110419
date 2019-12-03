@@ -11,12 +11,12 @@ def key_for_min_value(name_hash)
 def array_sort(array)
   i = 0 
   y = i + 1 
-  
-  while i < array.length 
+  n = array.length 
+  (n-1).time do |i|
    if array[i] > array[i + 1]
      array[i], array[i+ 1] = array[i + 1], array[i]
    end
-   i += 1
+   
 end
 array
 end
