@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     array << data
   end
  
-def array_sort(array)
+
   i = 0 
   y = i + 1 
   n = array.length
@@ -17,14 +17,26 @@ def array_sort(array)
   while swap do
   swap = false 
   (n-1).times do |i|
-   if array[i] > array[i + 1]
-     array[i], array[i+ 1] = array[i + 1], array[i]
-     swap = true
-   end
- end
-end
-array
-end
+      if array[i] > array[i + 1]
+        array[i], array[i+ 1] = array[i + 1], array[i]
+        swap = true
+      end
+  end
+
+  new_count = 0 
+  name_hash.each do |key, data|
+    if data == array[new_count]
+      return key 
+    end
+    new_count += 1 
+  end 
+end 
+
+
+  
+    
+  
+
 
 
 
