@@ -24,7 +24,7 @@ def key_for_min_value(name_hash)
   end
 
   new_count = 0 
-  name_hash.each do |key, data|
+  name_hash.collect do |key, data|
     if data == array[new_count]
       return key 
     end
