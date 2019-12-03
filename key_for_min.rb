@@ -8,4 +8,15 @@ def key_for_min_value(name_hash)
     array << data
   end
   
- 
+ def array_sort(array)
+   count = 0 
+   array.each do |a,b|
+     if a > b
+       a.unshift 
+     elsif a < b 
+       a.shift 
+    else 
+      a = a[count]
+    end
+  array
+end
