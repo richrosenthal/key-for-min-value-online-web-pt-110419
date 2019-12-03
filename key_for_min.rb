@@ -12,7 +12,7 @@ def array_sort(array)
   i = 0 
   y = i + 1 
   n = array.length 
-  (n-1).time do |i|
+  (n-1).times do |i|
    if array[i] > array[i + 1]
      array[i], array[i+ 1] = array[i + 1], array[i]
    end
