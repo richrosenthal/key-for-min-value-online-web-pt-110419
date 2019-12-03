@@ -17,7 +17,9 @@ def array_sort(array)
       elsif array[i] < array[y]
         array.insert(i, array.delete_at(y-1))
       else
-        puts "It's fine"
+        i += 1 
+        y += 1
+      
    end
   end 
  
