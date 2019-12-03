@@ -8,4 +8,10 @@ def key_for_min_value(name_hash)
     array << data
   end
   
- array.each do |
+   i = 0 
+   y = i + 1 
+   while i < array.length  
+      if array[i] > array [y] 
+        array[i] = 
+ 
+  
